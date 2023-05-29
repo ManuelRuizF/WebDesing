@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .button-home {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+  }
+  
+  .button-home:hover {
+    background-color: #3D9970; /* Darker green */
+  } 
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+
+  header {
+    position: sticky;
+  }
+  
+  .navbar-expand-lg  {
+    background-color: #eceeb5;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    float: left;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding-left: 1%;
+    padding-top: 0%;
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    float: right;
+  }
+
+  ul.navbar-nav {
+    float:center;
+    padding-right: 1%;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-item :hover {
+    background-color: #e0008a;
+  }
+  
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    width: 100%;
+  }
+  
+  .product-card h2 {
+    margin-top: 0;
+  }
+  
+  .product-card p {
+    margin-bottom: 0;
+  }
+  
+  .product-card button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #ccc;
+  }
+
+  .navbar-collapse {
+    margin-left: 40%;
+  }
+
+  .card-body{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+    
+  }
